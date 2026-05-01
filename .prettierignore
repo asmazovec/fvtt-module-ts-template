@@ -6,6 +6,8 @@ coverage/
 .vscode/
 .idea/
 
+package-lock.json
+
 # MCP build output
 tools/mcp/**/dist/
 tools/mcp/**/*.js

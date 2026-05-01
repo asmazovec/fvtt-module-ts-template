@@ -1,7 +1,7 @@
 // Namespace every rule under the module id to avoid clashes with core/other modules.
 . {{ MODULE_ID }} {
   &__root {
-    display: block; 
+    display: block;
   }
 
   &__button {
