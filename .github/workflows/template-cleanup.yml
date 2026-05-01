@@ -8,6 +8,8 @@ jobs:
   cleanup:
     if: github.run_number == 1 && github.event.repository.name != '{{MODULE_ID}}'
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
