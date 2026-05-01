@@ -1,0 +1,17 @@
+{
+  "{{MODULE_ID}}": {
+    "settings": {
+      "enableFeatureX": {
+        "name": "Enable Feature X",
+        "hint": "Turn on the headline feature of this module."
+      }
+    },
+    "app": {
+      "example": {
+        "title": "Example",
+        "message": "Hello from {{MODULE_TITLE}}",
+        "ping": "Ping"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Per-developer config
+foundry-config.json
+
+# Env files (never commit)
+.env
+.env.*
+!.env.example
+
+# MCP build output
+tools/mcp/**/dist/
+tools/mcp/**/*.js
+tools/mcp/**/*.js.map
+!tools/mcp/**/src/**

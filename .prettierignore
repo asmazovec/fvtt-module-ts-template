@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# MCP build output
+tools/mcp/**/dist/
+tools/mcp/**/*.js
+tools/mcp/**/*.js.map
+!tools/mcp/**/src/**
