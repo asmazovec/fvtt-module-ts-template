@@ -10,7 +10,7 @@ interface ExampleAppContext {
 /**
  * Minimal ApplicationV2 window. Extend or delete — this is a scaffold.
  */
-export class ExampleApp extends HandlebarsApplicationMixin(ApplicationV2) {
+export class ExampleApp extends HandlebarsApplicationMixin(ApplicationV2<ExampleAppContext>) {
   static override DEFAULT_OPTIONS = {
     id: `${MODULE_ID}-example`,
     tag: "section",
@@ -34,7 +34,7 @@ export class ExampleApp extends HandlebarsApplicationMixin(ApplicationV2) {
   protected override async _prepareContext(): Promise<ExampleAppContext> {
     return {
       moduleId: MODULE_ID,
-      message: game.i18n.localize(`${MODULE_ID}.app.example.message`)
+      message: game.i18n!.localize(`${MODULE_ID}.app.example.message`)
     };
   }
 
