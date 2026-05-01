@@ -13,10 +13,18 @@
       "url": "{{AUTHOR_URL}}"
     }
   ],
-  "esmodules": ["module.js"],
-  "styles": ["styles/module.css"],
+  "esmodules": [
+    "module.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
   "languages": [
-    { "lang": "en", "name": "English", "path": "lang/en.json" }
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
   ],
   "packs": [],
   "relationships": {

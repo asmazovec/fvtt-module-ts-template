@@ -2,32 +2,46 @@
   "mcpServers": {
     "foundry-api-docs": {
       "command": "node",
-      "args": ["tools/mcp/foundry-api-docs/dist/index.js"],
+      "args": [
+        "tools/mcp/foundry-api-docs/dist/index.js"
+      ],
       "env": {
         "FOUNDRY_APP_PATH": "${FOUNDRY_APP_PATH}"
       }
     },
     "foundry-types": {
       "command": "node",
-      "args": ["tools/mcp/foundry-types/dist/index.js"],
+      "args": [
+        "tools/mcp/foundry-types/dist/index.js"
+      ],
       "env": {
         "TYPES_PACKAGE_ROOT": "node_modules/@league-of-foundry-developers/foundry-vtt-types"
       }
     },
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "${workspaceFolder}"]
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${workspaceFolder}"
+      ]
     },
     "web-search": {
       "command": "npx",
-      "args": ["-y", "tavily-mcp@latest"],
+      "args": [
+        "-y",
+        "tavily-mcp@latest"
+      ],
       "env": {
         "TAVILY_API_KEY": "${TAVILY_API_KEY}"
       }
     },
     "typescript-lsp": {
       "command": "npx",
-      "args": ["-y", "typescript-language-server-mcp"],
+      "args": [
+        "-y",
+        "typescript-language-server-mcp"
+      ],
       "env": {
         "WORKSPACE": "${workspaceFolder}"
       }

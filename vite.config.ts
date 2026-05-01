@@ -13,8 +13,8 @@ export default defineConfig(({ mode }): UserConfig => ({
   },
   css: {
     preprocessorOptions: {
-      scss: { 
-        api: "modern-compiler" 
+      scss: {
+        api: "modern-compiler"
       }
     } as any
   },

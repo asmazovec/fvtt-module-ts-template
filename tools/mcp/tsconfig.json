@@ -10,7 +10,9 @@
     "sourceMap": true,
     "outDir": "./",
     "rootDir": "./",
-    "types": ["node"]
+    "types": [
+      "node"
+    ]
   },
   "include": [
     "foundry-api-docs/src/**/*.ts",

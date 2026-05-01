@@ -1,6 +1,9 @@
 // Namespace every rule under the module id to avoid clashes with core/other modules.
-.{{MODULE_ID}} {
-  &__root { display: block; }
+. {{ MODULE_ID }} {
+  &__root {
+    display: block; 
+  }
+
   &__button {
     cursor: pointer;
     padding: 0.25rem 0.5rem;
