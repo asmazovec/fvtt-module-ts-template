@@ -17,5 +17,6 @@
   "include": [
     "foundry-api-docs/src/**/*.ts",
     "foundry-types/src/**/*.ts"
-  ]
+  ],
+  "exclude": []
 }
